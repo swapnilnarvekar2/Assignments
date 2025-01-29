@@ -7,24 +7,32 @@ public class Assignment1 {
 		
 		//1. Temprature of a city in degree celcius
 		float temprature = 25.5f;
+		System.out.format("Temparature = %.1f %n", temprature);
 		
 		//2. Whether a customer has placed an order?
 		boolean isOrderPlaced = true;
+		System.out.printf("Order placed status is %b %n",isOrderPlaced);
 		
 		//3. Person's phone number
-		long phoneNumber = 123-456-7890l;
+		String phoneNumber = "123-456-7890";
+		System.out.println("Phone number: "+ phoneNumber);
 		
 		//4. Amount of money in a customer's bank account
 		float bankBalance = 1000.50f;
+		System.out.println("Bank balance: "+ bankBalance);
 		
 		//5. persons email address
 		String emailAddress = "john.doe@example.com";
+		System.out.println(emailAddress);
 		
 		//6. Coordinates of a location
-		double coordinates = -122.4194;
+		double latitude = 37.7749; 
+		double longitude = -122.4194;
+		System.out.printf("Latitude: %f and longitude %f %n", latitude, longitude);
 		
 		//7. Persons maritial status
 		boolean isMarried = false;
+		System.out.println("Married? : "+ isMarried);
 		
 		//8. Persons occupation
 		String occupation = "Software Engineer";
