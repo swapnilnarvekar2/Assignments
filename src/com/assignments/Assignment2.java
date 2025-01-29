@@ -48,10 +48,21 @@ public class Assignment2 {
 				
 				{
 					// Semester 5
+					{"Semester5","Probability & Stats","86"},
+					{"Semester5","Machine Learning","88"},
+					{"Semester5","Compiler Design","84"},
+					{"Semester5","Theory of Computation","95"},
+					{"Semester5","Embedded Systems","73"},
+					{"Semester5","Computer Graphics","90"},
 					
 				}
 		};
 		
+		// Print Semester 3 - Subject 4 and Subject 5 names
+		System.out.println(semesterData[2][3][1]+ " AND " + semesterData[2][4][1]);
+		
+		// Print Semester 5 - Subject 3 and Subject 6 marks
+		System.out.println(semesterData[4][2][2]+ " AND " + semesterData[4][5][2]);
 
 	}
 

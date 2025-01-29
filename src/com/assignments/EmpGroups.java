@@ -11,7 +11,7 @@ public class EmpGroups {
 		// Creating string array to store employee names
 		String[] empNames = {emp.empName1, emp.empName2, emp.empName3};
 		
-		// Creating integer array to store employee id's
+		// Creating integer array to store employee id's`
 		int[] empIds = {emp.empID1, emp.empID2, emp.empID3};
 		
 		// Printing employee name with id's
