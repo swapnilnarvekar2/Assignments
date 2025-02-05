@@ -25,7 +25,7 @@ public class Assignment6 {
 						
 						if(debtToIncomeRatio<=40) {
 							
-							System.out.println("The loan is approved by checking mmultiple elegibilities");
+							System.out.println("The loan is approved by checking multiple elegibilities");
 						}
 						else {
 							
