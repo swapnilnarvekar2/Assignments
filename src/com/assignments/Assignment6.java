@@ -6,10 +6,10 @@ public class Assignment6 {
 		// TODO Auto-generated method stub
 		
 		String customerName = "John Doe";
-		int creditScore = 652;
+		int creditScore = 720;
 		float income = 55000.0f;
-		boolean isEmployed = false;
-		float debtToIncomeRatio = 40.0f;
+		boolean isEmployed = true;
+		float debtToIncomeRatio = 35.0f;
 		
 		if(creditScore>750){
 			
